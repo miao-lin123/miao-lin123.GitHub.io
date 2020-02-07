@@ -1,0 +1,91 @@
+@charset 'UTF-8';
+/*=====================
+      content END
+========================*/
+.service{
+    background: #fff;
+}
+.service .service-top{
+    margin-top:38px;
+    border-bottom:2px solid #e0e0e0;
+}
+.service .service-top li{
+    display:block;
+    width: 240px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.service .service-top li label{
+     font-size: 26px;
+}
+.service .service-top li a{
+    color: #61617a;
+    font-size: 18px;
+    transition: 1s;
+}
+.service .service-top li a::before{
+    content: "";
+    position: absolute;
+    top: 32px;
+    right: 0;
+    width: 1px;
+    height: 26px;
+    border-right: 1px solid #e0e0e0;
+}
+.service .service-top li .special::before{
+    content: "";
+    border: none;
+}
+.service .service-top a:hover{
+    color: #ff6700;
+}
+.service .service-con p{
+    padding:40px 104px 30px 0;
+}
+.service .service-con li{
+    line-height: 30px;
+    color: #757575;
+}
+.service .service-con li:hover{
+    color: #ff6700;
+}
+.service .service-con ul{
+    padding-bottom: 40px;
+}
+.service .service-con ul .befor::before{
+    content: "";
+    position: absolute;
+    top: 42px;
+    right:0;
+    width: 1px;
+    height: 106px;
+    border-right: 1px solid #e0e0e0;
+}
+.service .service-con .service-r{
+    padding-left: 64px;
+}
+.service .service-con .service-r h3{
+    padding-top: 40px;
+    color: #ff6700;
+}
+.service .service-con .service-r p{
+    padding: 0;
+}
+.service .service-con .service-r .contact{
+    width: 118px;
+    height: 28px;
+    margin-top: 22px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    transition: 0.5s;
+}
+.service .service-con .service-r .contact:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+/*=====================
+      video START
+========================*/

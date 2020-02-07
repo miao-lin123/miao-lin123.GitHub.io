@@ -1,0 +1,64 @@
+@charset 'UTF-8';
+body,h1,h2,h3,h4,h5,h6,p,dd{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font:14px/1.5 "微软雅黑",sans-serif;/*sans-serif 是手机默认字体*/
+}
+ul,ol,dl{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    color: inherit;
+    outline: none;
+}
+/**************************************************
+=========== public ===============================
+**************************************************/
+.container {
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/******* float *******/
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+  }
+  .fl-l {
+    float: left;
+  }
+  .fl-r {
+    float: right;
+  }
+  /*************************************
+===============position===============
+***********************************/
+.pos-r {
+    position: relative;
+  }
+  .pos-a {
+    position: absolute;
+  }
+  .pos-f {
+    position: fixed;
+  }
+   /*************************************
+===============外边距解决方法===============
+***********************************/
+.ma-method{
+  overflow: hidden;
+} 

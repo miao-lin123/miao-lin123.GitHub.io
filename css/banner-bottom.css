@@ -1,0 +1,98 @@
+@charset 'UTF-8';
+/*=====================
+      banner-bottom START
+========================*/
+.banner-bottom .b-b-left{
+      margin: 21px 2px 40px 0;
+      width: 252px;
+      background-color: #5f5750;
+}
+.banner-bottom .b-b-left li{
+      width: 82px;
+      height: 82px;
+      text-align: center;
+}
+.banner-bottom .b-b-left li a{
+      display: block;
+      padding-top: 18px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+}
+.banner-bottom .b-b-left li a .iconfont-block{
+      display: block;
+      height: 24px;
+      margin-bottom: 6px;
+      font-size: 32px;
+      font-weight:bold;
+      line-height: 24px;
+}
+.banner-bottom .b-b-left .border-r::before{
+      content:"";
+      position: absolute;
+      top: 10px;
+      left: 82px;
+      height: 64px;
+      border: 0.5px solid #665e57;
+
+}
+.banner-bottom .b-b-left .border2-r::before{
+      content:"";
+      position: absolute;
+      top: 10px;
+      left: 164px;
+      height: 64px;
+      border: 0.5px solid #665e57;
+}
+.banner-bottom .b-b-left .border3-b::after{
+      content:"";
+      position: absolute;
+      bottom: 0;
+      left: 172px;
+      width: 64px;
+      border: 1px solid #665e57;
+}
+.banner-bottom .b-b-left .border4-r::before{
+      content:"";
+      position: absolute;
+      top: 10px;
+      left: 82px;
+      height: 64px;
+      border: 0.5px solid #665e57;
+}
+.banner-bottom .b-b-left .border4-t::after{
+      content:"";
+      position: absolute;
+      top: 0;
+      left: 10px;
+      width: 64px;
+      border: 1px solid #665e57;
+}
+.banner-bottom .b-b-left .border5-r::before{
+      content:"";
+      position: absolute;
+      top: 10px;
+      left: 164px;
+      height: 64px;
+      border: 0.5px solid #665e57;
+}
+.banner-bottom .b-b-left .border5-t::after{
+      content:"";
+      position: absolute;
+      top: 0;
+      left: 92px;
+      width: 64px;
+      border: 1px solid #665e57;
+}
+.banner-bottom .ba-bo-right img{
+      width: 307px;
+      height: 164px;
+      margin: 21px 0 40px 14px;
+}
+.banner-bottom .ba-bo-bo img{
+      height: 120px;
+      margin-bottom: 40px;
+}
+/*=====================
+      banner-bottom END
+========================*/

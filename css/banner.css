@@ -1,0 +1,161 @@
+@charset 'UTF-8';
+/*=====================
+      banner-title START
+========================*/
+.banner .container{
+    height: 460px;
+}
+.banner .container .tab{
+    width:  1226px;
+    height: 460px;
+}
+.banner .container .img{
+    width:  100%;
+    height: 100%;
+}
+.banner .container .img li{
+    top: 0;
+    left: 0;
+    width:  100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 0;
+    transition: opacity .5s;
+}
+.banner .container .img li img{
+    width:  1226px;
+    height: 460px;
+}
+.banner .container .img li.active{
+    opacity: 1;
+    z-index: 2;
+}
+.tab .arrow li{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    width: 50px;
+    height: 66px;
+    margin-top: -20px;
+    background-color: rgba(0,0,0,0);
+    line-height: 66px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: .2s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.tab .arrow :hover{
+    background-color: rgba(0,0,0,.5);
+}
+.tab .arrow .left{
+    left: 250px;
+}
+.tab .arrow .right{
+    right: 0;
+}
+
+.tab .tab-d{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 20px;
+    width: 150px;
+    height: 20px;
+}
+.tab .tab-d ul li{
+    float: left;
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,.6);
+    border-radius: 100%;
+    margin: 0 5px;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px rgba(255,255,255,0);
+    transition: background-color .3s,border .3s,box-shadow .3s;
+}
+.tab .tab-d ul li.active{
+    background-color : rgba(255,255,255,1);
+    border: 2px solid rgba(255,255,255,1);
+    box-shadow: 0 0 0 4px rgba(255,255,255,.3);
+}
+
+.banner .container .title{
+    top: 0;
+    width: 250px;
+    height: 392px;
+    padding: 34px 0;
+    background-color:rgba(0,0,0,.2);
+    z-index: 3;
+}
+.banner .container .title .iconfont{
+    float: right;
+    color: #89b2b2;
+}
+.banner .container .title li{
+    padding: 0 23px 0 29px;
+}
+.banner .container .title li a{
+    line-height: 41px;
+    color: #fff;
+}
+.banner .container .title .title-li:hover{
+    background-color:#ff6700;
+}
+/*=====================
+      banner-title END
+========================*/
+/*=====================
+      banner-title- START
+========================*/
+
+.banner .container .title .title-t{
+    display:none;
+    top: 0;
+    left:250px;
+    width: 280px;
+    background-color: #fff;
+    padding-top:16px;
+    box-shadow: 3px 4px 7px -2px #e0e0e0;
+   
+} 
+
+.banner .container .title .title-t li{
+    padding-right: 0;
+    padding-left: 18px;
+}
+.banner .container .title .title-t:nth-child(3){
+    left: 462px;
+    width: 250px;
+}
+.banner .container .title .title-t:nth-child(4){
+    left: 702px;
+}
+.banner .container .title .title-t:nth-child(5){
+    left: 964px;
+}
+.banner .container .title .title-t li{
+    line-height: 74px;
+}
+.banner .container .title .title-t img{
+    width:54px;
+    height: 41px;
+    padding-top: 16px;
+}
+.banner .container .title .title-t a{
+    font-size: 14px;
+    color: #4e4e4e;
+}
+.banner .container .title .title-t a:hover{
+    color:#ff6700;
+}
+.banner .container .title .title-li:hover .title-t:nth-child(n){
+    display: block;
+}
+
+/*=====================
+      banner-title-t END
+========================*/

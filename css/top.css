@@ -1,0 +1,127 @@
+@charset 'UTF-8';
+#topbar {
+    line-height: 40px;
+    font-size: 12px;
+    background-color: #333;
+  }
+/*=====================
+      TOPBAR  nav START
+========================*/
+.container li a{
+    color: #b0b0b0;
+    font-size: 12px;
+    padding:0 8px;
+    
+}
+.container .boeder-l a{
+      border-left: 1px solid #35393f;
+}
+.container .search-lh a{
+       line-height: 40px;
+}
+.container li:first-child a{
+    border-left: none;
+}
+.container li a:hover{
+    color: #fff;
+}
+.container .code{
+      top:40px;
+      left: -22px;
+      display: none;
+      padding: 15px 19px 19px 15px;
+      box-shadow: 0 1px 2px 1px #d7d7d7;
+}
+.container .pos-r:hover .code{
+      display:block;
+      background-color: #fff;
+      z-index: 9;
+}
+.container .code::before{
+      content: "";
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      margin-left: -10px;
+      border: 8px solid transparent;
+      border-bottom-color: #fff;
+      border-top: none;
+}
+.container .code img{
+      width: 86px;
+      height: 86px;
+      padding-left: 6px;
+}
+.container .code p{
+      font-size: 12px;
+      color: #333;
+     text-align:center;
+}
+/*=====================
+      TOPBAR nav end
+========================*/
+
+/*=====================
+      TOPBAR  user START
+========================*/
+.container .user .u-user .bl-nav{
+      display: none;
+}
+.container .user .u-user a{
+      display: inline-block;
+      width: 84px;
+      text-align:center;
+      color: #b0b0b0;
+}
+.container .user .u-user:hover .bl-nav{
+      display:block;
+      z-index: 1;
+}
+.container .user .u-user .bl-nav li a:hover{
+       color: #fe6a00;
+}
+.container .user .u-user:hover .a{
+      background-color: #fff;
+      color: #fe6a00;
+}
+.container .user .bl-nav{
+      width: 100px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 1px 2px 1px #d7d7d7;
+}
+.container .user .bl-nav li a{
+      color: #333;
+}
+.container .user .shopcart{
+      display: block;
+      width: 120px;
+      height: 40px;
+      text-align: center;
+      background-color: #424242;
+      border-left: none;
+}
+.container .user li .shop{
+      top: 40px;
+      right: 0px;
+      display: none;
+      width: 316px;
+      height: 98px;
+      font-size: 12px;
+      color: #424242;
+      text-align: center;
+      line-height: 98px;
+      box-shadow: 0 1px 2px 1px #d7d7d7;
+}
+.container .user .shopcart:hover{
+      color:#fe6a00;
+      background-color:#fff;
+}
+.container .user .shopcart:hover .shop{
+      display: block;
+      background-color:#fff;
+      z-index: 9;
+}
+/*=====================
+      TOPBAR  user END
+========================*/
